@@ -1,3 +1,14 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
 body {
-  color: red;
+  background: #111821;
+}
+header {
+  width: 280px;
+  background: #1e2a3a;
+}
+.main-wrapper {
+  margin-left: 280px;
+  margin-right: 0;
 }
