@@ -27,10 +27,25 @@ header {
 .bio-para {
   font-size: 0.875rem;
 }
+.side-nav ul {
+  list-style-type: none;
+}
+.side-nav ul li {
+  padding: ;
+}
 .icons a {
   width: 32px;
   height: 32px;
   text-align: center;
   padding-top: 5px;
+  background: #54B689;
+}
+.side-nav a {
+  color: #fff;
+}
+.side-nav a:hover {
+  color: #54B689;
+}
+.hire-btn button {
   background: #54B689;
 }
