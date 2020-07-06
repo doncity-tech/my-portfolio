@@ -1,12 +1,25 @@
 *, ::before, ::after {
   box-sizing: border-box;
 }
-body {
+
+.normal-mode-body {
+  background: white;
+  color: rgb(41, 40, 40);
+}
+.normal-mode-side {
+  background: #54B689;
+  color: white;
+}
+.dark-mode-body {
   background: #111821;
+  color: white;
+}
+.dark-mode-side {
+  background: #1e2a3a;
+  color: white;
 }
 header {
   width: 280px;
-  background: #1e2a3a;
   overflow-y: auto;
   scrollbar-width: thin;
 }
@@ -38,7 +51,14 @@ header {
   height: 32px;
   text-align: center;
   padding-top: 5px;
+}
+.icons.dark a {
   background: #54B689;
+  color: #fff;  
+}
+.icons.normal a {
+  background: #fff;
+  color: #54B689;
 }
 .side-nav a {
   color: #fff;
@@ -64,4 +84,15 @@ header {
   color: #54B689;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+}
+.about-details, .about-image {
+  width: 45%;
+}
+.portfolio-btn {
+  background: #54B689;
+  color: #fff;
+}
+.resume-btn {
+  background: #1e2a3a;
+  color: #fff;
 }

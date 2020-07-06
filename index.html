@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
-<body class="text-light">
-  <header class="position-fixed vh-100 py-3 px-3 scroller">
+<body class="dark-mode-body">
+  <header class="dark-mode-side position-fixed vh-100 py-3 px-3 scroller">
     <h4 class="text-center font-weight-bold">
       <a class="text-light nav-link" href="index.html">Princewill Opara</a>
     </h4>
@@ -21,11 +21,11 @@
     <div class="info">
       <p class="text-center bio-para">Hi, my name is Princewill Opara and I'm a Software Engineer. Welcome to my personal website!</p>
     </div>
-    <div class="icons px-4 mt-4 d-flex justify-content-between">
-      <a class="twitter rounded-circle text-light" href=""><i class="fab fa-twitter"></i></a>
-      <a class="linkedin rounded-circle text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-      <a class="facebook rounded-circle text-light" href=""><i class="fab fa-facebook-f"></i></a>
-      <a class="github rounded-circle text-light" href=""><i class="fab fa-github-alt"></i></a>
+    <div class="icons dark px-4 mt-4 d-flex justify-content-between">
+      <a class="twitter rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+      <a class="linkedin rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+      <a class="facebook rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+      <a class="github rounded-circle" href=""><i class="fab fa-github-alt"></i></a>
     </div>
     <hr class="border-secondary"/>
     <div class="side-nav">
@@ -48,7 +48,7 @@
       </button>
     </div>
     <hr class="border-secondary"/>
-    <div class="dark-mode">
+    <div class="dark-mode-wrapper">
       <p class="text-light text-center"><i class="fas fa-adjust"></i> Dark Mode</p>
       <div class="mode-btn d-flex justify-content-center mb-5">
         <div class="dark-mode-btn d-flex justify-content-start">
@@ -57,8 +57,28 @@
       </div>
     </div>
   </header>
-  <div class="main-wrapper p-3">
-    Coming soon
+  <div class="main-wrapper p-5">
+    <section class="about d-flex justify-content-between">
+      <div class="about-details">
+        <div class="about-text">
+          <h1 class="about-header">Princewill Opara</h1>
+          <h4 class="about-sub-header">Software Engineer</h4>
+          <p class="about-desc mt-4">
+            I'm a software engineer specialised in frontend and backend development 
+            for complex scalable web apps. I write about software development on my blog. 
+            Want to know how I may help your project? Check out my project portfolio and 
+            online resume.
+          </p>
+        </div>
+        <div class="about-btn">
+          <button class="portfolio-btn btn"><i class="fas fa-briefcase mr-2"></i> View Portfolio</button>
+          <button class="resume-btn btn"><i class="fas fa-file mr-2"></i> View Resume</button>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="" alt="Princewill's Image">
+      </div>
+    </section>
   </div>
   <script src="js/third-party-cdn.js"></script>
   <script src="js/main.js"></script>
