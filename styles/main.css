@@ -87,7 +87,8 @@ header {
 }
 .about-desc,
 .work-expi,
- .about-sub-header {
+ .about-sub-header,
+ .skill-desc {
   color: rgba(255, 255, 255, 0.7);
 }
 .about-desc, .work-expi {
@@ -122,6 +123,9 @@ header {
 .about-image img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+}
+.skill-icon {
+  font-size: 2rem;
 }
 .work-header {
   border-left: 5px solid #54B689;
