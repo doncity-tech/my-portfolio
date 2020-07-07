@@ -130,8 +130,28 @@ header {
 .testi-img img {
   max-width: 60px;
   border-radius: 50%;
+  margin-right: 20px;
 }
 .testimonial-desc > div {
-  width: 30%;
-  padding: 20px 40px;
+  position: relative;
+  width: 31%;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  background: #1e2a3a;
+}
+.testimonial-desc > div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  border-color: #54B689 transparent transparent #54B689;
+}
+.testi-text p {
+  font-size: 16px;
+}
+.testi-name p {
+  font-size: 0.8125rem;
 }
