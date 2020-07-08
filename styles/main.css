@@ -26,6 +26,7 @@ header {
 .main-wrapper {
   margin-left: 280px;
   margin-right: 0;
+  overflow-x: hidden;
 }
 
 .image {
@@ -85,7 +86,8 @@ header {
 .about-desc,
 .work-expi,
  .about-sub-header,
- .skill-desc {
+ .skill-desc,
+ .project-desc {
   color: rgba(255, 255, 255, 0.7);
 }
 .about-desc, .work-expi {
@@ -154,4 +156,30 @@ header {
 }
 .testi-name p {
   font-size: 0.8125rem;
+}
+.quote-icon {
+ top: 0;
+ left: 0;
+ z-index: 22;
+ font-size: 12px;
+ padding: 2px 4px;
+}
+.projects-wrapper {
+  width: 100%;
+}
+.project-card {
+  background: #1e2a3a;
+}
+.project-header, .card-tittle {
+  font-size: 1.125rem;
+}
+.project-img-holder, .project-card {
+  max-height: 200px;
+  overflow: hidden;
+}
+.project-img-holder img {
+  vertical-align: middle;
+}
+.project-desc {
+  font-size: 0.875rem;
 }
