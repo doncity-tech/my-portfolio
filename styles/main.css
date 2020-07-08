@@ -87,23 +87,26 @@ header {
 .work-expi,
  .about-sub-header,
  .skill-desc,
- .project-desc {
+ .project-desc,
+ .blog-desc {
   color: rgba(255, 255, 255, 0.7);
 }
 .about-desc, .work-expi {
   line-height: 2;
 }
 .about-desc a,
-.work-expi a {
+.work-expi a,
+.blog-link a.card-link {
   color: #54B689;
 }
 .portfolio-btn,
+.blog-btn,
 .portfolio-btn:hover,
 .resume-btn, .resume-btn:hover {
   color: #fff;
   font-weight: 600;
 }
-.portfolio-btn {
+.portfolio-btn, .blog-btn {
   background: #54B689;
 }
 .resume-btn {
@@ -167,8 +170,9 @@ header {
 .projects-wrapper {
   width: 100%;
 }
-.project-card {
+.project-card, .blog-post {
   background: #1e2a3a;
+  height: 100%;
 }
 .project-header, .card-tittle {
   font-size: 1.125rem;
@@ -180,6 +184,6 @@ header {
 .project-img-holder img {
   vertical-align: middle;
 }
-.project-desc {
+.project-desc, .blog-desc {
   font-size: 0.875rem;
 }
