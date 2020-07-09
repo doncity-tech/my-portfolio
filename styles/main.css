@@ -1,7 +1,11 @@
 *, ::before, ::after {
   box-sizing: border-box;
 }
-
+.menu-btn {
+  font-size: 1.5rem;
+  background: none;
+  color: white;
+}
 .normal-mode-body {
   background: white;
   color: rgb(41, 40, 40);
@@ -19,9 +23,12 @@
   color: white;
 }
 header {
+  position: fixed;
   width: 280px;
+  height: 100%;
   overflow-y: auto;
   scrollbar-width: thin;
+  z-index: 999;
 }
 .main-wrapper {
   margin-left: 280px;
@@ -125,6 +132,7 @@ header {
 .about-image img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  max-width: 400px;
 }
 .skill-icon {
   font-size: 2rem;
@@ -186,4 +194,25 @@ header {
 }
 .project-desc, .blog-desc {
   font-size: 0.875rem;
+}
+.footer-span {
+  color: #54B689;
+}
+
+@media screen and (max-width: 990px) {
+  .main-wrapper {
+    margin-left: 0;
+  }
+  header {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .about-image img {
+    max-width: 100%;
+  }
 }
