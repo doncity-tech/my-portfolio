@@ -30,6 +30,9 @@ header {
   scrollbar-width: thin;
   z-index: 999;
 }
+.about-header {
+  font-size: 3rem;
+}
 .main-wrapper {
   margin-left: 280px;
   margin-right: 0;
@@ -99,7 +102,7 @@ header {
   color: rgba(255, 255, 255, 0.7);
 }
 .about-desc, .work-expi {
-  line-height: 2;
+  line-height: 1.5;
 }
 .about-desc a,
 .work-expi a,
@@ -145,14 +148,13 @@ header {
   border-radius: 50%;
   margin-right: 20px;
 }
-.testimonial-desc > div {
+.testimonial-desc > div > div {
   position: relative;
-  width: 31%;
   padding: 1.5rem;
   padding-left: 3rem;
   background: #1e2a3a;
 }
-.testimonial-desc > div::after {
+.testimonial-desc > div > div::after {
   content: "";
   position: absolute;
   top: 0;
@@ -185,18 +187,34 @@ header {
 .project-header, .card-tittle {
   font-size: 1.125rem;
 }
-.project-img-holder, .project-card {
+.project-img-holder {
   max-height: 200px;
   overflow: hidden;
 }
+.project-card {
+  height: 100%;
+}
 .project-img-holder img {
   vertical-align: middle;
+  width: 100%;
 }
 .project-desc, .blog-desc {
   font-size: 0.875rem;
 }
 .footer-span {
   color: #54B689;
+}
+
+@media screen and (min-width: 992px) {
+  .about-image img {
+    max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-image img {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -214,5 +232,8 @@ header {
 @media screen and (max-width: 486px) {
   .about-image img {
     max-width: 100%;
+  }
+  .about-header {
+    font-size: 2rem;
   }
 }
