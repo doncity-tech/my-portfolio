@@ -111,6 +111,7 @@ header {
 }
 .portfolio-btn,
 .blog-btn,
+.blog-btn:hover,
 .portfolio-btn:hover,
 .resume-btn, .resume-btn:hover {
   color: #fff;
@@ -125,7 +126,8 @@ header {
 .resume-btn:hover {
   background: #1e2a3ace;
 }
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.blog-btn:hover {
   background: #54b688ce;
 }
 .about-image {
