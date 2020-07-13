@@ -238,4 +238,12 @@ header {
   .about-header {
     font-size: 2rem;
   }
+  .each-blog-post {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .projects-wrapper {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
