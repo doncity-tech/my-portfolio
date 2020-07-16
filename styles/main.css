@@ -179,9 +179,6 @@ header {
  font-size: 12px;
  padding: 2px 4px;
 }
-.projects-wrapper {
-  width: 100%;
-}
 .project-card, .blog-post {
   background: #1e2a3a;
   height: 100%;
@@ -237,10 +234,6 @@ header {
   }
   .about-header {
     font-size: 2rem;
-  }
-  .each-blog-post {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
   }
   .projects-wrapper {
     margin-left: 0 !important;
