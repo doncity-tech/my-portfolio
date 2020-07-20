@@ -117,6 +117,15 @@ header {
   color: #fff;
   font-weight: 600;
 }
+.green-btn {
+  color: #fff;
+  background: #54B689;
+  font-weight: 600;
+}
+.green-btn:hover {
+  background: #54b688ce;
+  color: #fff;
+}
 .portfolio-btn, .blog-btn {
   background: #54B689;
 }
