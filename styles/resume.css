@@ -11,3 +11,8 @@
 .resume-addr span {
   font-size: 0.9rem;
 }
+.resume-profile-img div {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
