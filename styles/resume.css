@@ -1,0 +1,13 @@
+.resume-section {
+  background: #1e2a3a;
+  color: rgba(255, 255, 255, 0.7);
+}
+.resume-addr ul{
+  list-style-type: none;
+}
+.resume-addr li{
+  padding-bottom: 0.4rem;
+}
+.resume-addr span {
+  font-size: 0.9rem;
+}
