@@ -12,7 +12,12 @@
   font-size: 0.9rem;
 }
 .resume-profile-img div {
-  width: 100%;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
+  border: 1px solid gray;
+}
+.resume-profile-img img {
+  max-width: 120px;
 }
