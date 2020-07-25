@@ -12,7 +12,8 @@
 .resume-obj p,
 .work-place,
 .work-details,
-.skill-details p {
+.skill-details p,
+.resume-footer li {
   font-size: 0.9rem;
 }
 .resume-profile-img img {
