@@ -117,7 +117,7 @@ header {
   color: #fff;
   font-weight: 600;
 }
-.green-btn {
+.green-btn, .sub-btn {
   color: #fff;
   background: #54B689;
   font-weight: 600;
@@ -126,7 +126,7 @@ header {
   background: #54b688ce;
   color: #fff;
 }
-.portfolio-btn, .blog-btn {
+.portfolio-btn, .blog-btn{
   background: #54B689;
 }
 .resume-btn {
