@@ -98,7 +98,8 @@ header {
  .about-sub-header,
  .skill-desc,
  .project-desc,
- .blog-desc {
+ .blog-desc,
+ .blog-intro {
   color: rgba(255, 255, 255, 0.7);
 }
 .about-desc, .work-expi {
