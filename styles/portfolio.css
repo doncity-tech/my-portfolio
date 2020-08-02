@@ -16,8 +16,11 @@
 .hire-btn button:hover{
   background: #54b688ce;
 }
-.body-text-link {
+.body-text-link, .contact-icons a {
   color: #54B689;
+}
+.contact-icons a {
+  font-size: 1.5rem;
 }
 .body-text-link:hover {
   color: #54B689;
