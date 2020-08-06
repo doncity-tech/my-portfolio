@@ -9,7 +9,8 @@
   font-size: 2rem;
   font-weight: bold;
 }
-.hire-btn button {
+.hire-btn button,
+.contact-btn {
   background: #54B689;
   font-weight: 600;
 }
@@ -24,4 +25,7 @@
 }
 .body-text-link:hover {
   color: #54B689;
+}
+.contact-details {
+  font-size: 80%;
 }
