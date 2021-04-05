@@ -19,3 +19,22 @@
 .resume-profile-img img {
   max-width: 120px;
 }
+.biodata table {
+  font-size: 1rem;
+}
+.biodata table tr td:first-child {
+  font-weight: 600;
+  color: #f8f9fa;
+  width: 150px;
+}
+.biodata table tr td:last-child {
+  padding-left: 40px;
+}
+
+a {
+  color: #54B689;
+  text-decoration: none;
+}
+a:hover {
+  color: #7df3bc;
+}
