@@ -3,3 +3,8 @@
 .form-inline {
   width: 360px;
 }
+
+.sub-btn:hover {
+  color: white;
+  background: #54b688ce;
+}
