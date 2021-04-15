@@ -1,4 +1,8 @@
 
+const qs = (elem) => {
+  return document.querySelector(elem);
+}
+
 let toggleBtn = document.querySelector('.dark-mode-toggle');
 toggleBtn.addEventListener('click', e => {
   let classes = e.target.parentNode.classList;
@@ -21,4 +25,9 @@ toggleBtnDiv.addEventListener('click', e => {
     classes.remove('justify-content-end');
     classes.add('justify-content-start');
   }
+});
+
+qs('.nav-toggle').addEventListener('click', () => {
+  qs('.header-wrapper').classList.toggle('d-none');
+  qs('.dark-mode-side').classList.toggle('position-absolute');
 });

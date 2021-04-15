@@ -1,6 +1,12 @@
 *, ::before, ::after {
   box-sizing: border-box;
 }
+.beta-v {
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 9999;
+}
 .menu-btn {
   font-size: 1.5rem;
   background: none;
@@ -30,6 +36,7 @@ header {
   scrollbar-width: thin;
   z-index: 999;
 }
+
 .about-header {
   font-size: 3rem;
 }
