@@ -38,3 +38,16 @@ a {
 a:hover {
   color: #7df3bc;
 }
+
+@media screen and (max-width: 780px){
+  .biodata table tr td:last-child {
+    padding-left: 20px;
+  }
+  .biodata table tr td:first-child {
+    width: 100px;
+  }
+  .work-place {
+    display: block;
+    float: none !important;
+  }
+}
